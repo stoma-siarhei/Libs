@@ -163,7 +163,7 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <ClInclude Include="framework.h" />
+    <ClInclude Include="manager.filesystem.h" />
     <ClInclude Include="pch.h" />
   </ItemGroup>
   <ItemGroup>
