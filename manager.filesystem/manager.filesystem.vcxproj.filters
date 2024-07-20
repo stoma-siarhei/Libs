@@ -13,6 +13,12 @@
       <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
       <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
     </Filter>
+    <Filter Include="Исходные файлы\enumerator">
+      <UniqueIdentifier>{14fabae5-af00-4c53-998b-90fb16e28b97}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Файлы заголовков\enumerator">
+      <UniqueIdentifier>{23825380-93f2-4288-ab80-ee42160f56ff}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="pch.h">
@@ -21,6 +27,9 @@
     <ClInclude Include="manager.filesystem.h">
       <Filter>Файлы заголовков</Filter>
     </ClInclude>
+    <ClInclude Include="enum_drives.hpp">
+      <Filter>Файлы заголовков\enumerator</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="manager.filesystem.cpp">
@@ -28,6 +37,9 @@
     </ClCompile>
     <ClCompile Include="pch.cpp">
       <Filter>Исходные файлы</Filter>
+    </ClCompile>
+    <ClCompile Include="enum_drives.cpp">
+      <Filter>Исходные файлы\enumerator</Filter>
     </ClCompile>
   </ItemGroup>
 </Project>
